@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DistanceInput : MonoBehaviour
+public class DistanceInput : MonoBehaviour, IInput
 {
     [field: SerializeField] public float Distance { get; private set; } = 20f;
 

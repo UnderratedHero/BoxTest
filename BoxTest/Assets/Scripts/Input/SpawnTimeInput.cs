@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SpawnTimeInput : MonoBehaviour
+public class SpawnTimeInput : MonoBehaviour, IInput
 {
     [field: SerializeField] public float SpawnTime { get; private set; } = 0.1f;
 

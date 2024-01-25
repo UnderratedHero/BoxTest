@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MoveSpeedInput : MonoBehaviour
+public class MoveSpeedInput : MonoBehaviour, IInput
 {
     [field:SerializeField] public float MoveSpeed { get; private set; } = 0.2f;
 
